@@ -139,5 +139,10 @@ if [ "$EUID" == "0" ]; then
 else 
     PS1="${debian_chroot:+($debian_chroot)}$FBLE\u@\h$RS:$FCYN\w$RS# " 
 fi 
- 
-alias gitlab-remote='ssh -p2222 -L9443:10.1.10.12:443 -L9022:10.1.10.12:22 -N slavoie@subversion.digitaloperatives.com'
+
+source .bashrc.work
+
+
+# virtualenv
+export WORKON_HOME=~/virtualenvs
+ source /usr/local/bin/virtualenvwrapper.sh
