@@ -140,8 +140,6 @@ else
     PS1="${debian_chroot:+($debian_chroot)}$FBLE\u@\h$RS:$FCYN\w$RS\$ " 
 fi 
 
-source .bashrc.work
-
 
 # virtualenv
 export WORKON_HOME=~/virtualenvs
