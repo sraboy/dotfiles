@@ -32,8 +32,8 @@
                 "path": [
                     "C:/Program Files (x86)/Arduino/hardware",
                     "C:/Program Files (x86)/Arduino/libraries",
-                    "%USERPROFILE%/Documents/Arduino/libraries/",
-                    "%USERPROFILE%/Documents/Arduino/hardware/",
+                    "C:/Users/Steve/Documents/Arduino/libraries",
+                    "C:/Users/Steve/Documents/Arduino/hardware",
                     "${workspaceRoot}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
